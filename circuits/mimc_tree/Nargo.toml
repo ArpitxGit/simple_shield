@@ -1,5 +1,11 @@
 [package]
+name = "p"
+type = "bin"
 authors = [""]
-compiler_version = "0.1"
+compiler_version = "0.9.0"
+description = "starting from simple sheild"
+entry = "src/main.nr"
+license = "MIT"
 
 [dependencies]
+ecrecover = {tag = "v0.9.0", git = "https://github.com/colinnielsen/ecrecover-noir.git"}
